@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+
+{% block content %}
+  {% load static %}
+  <div class="container-fuild">
+    <div class="banner text-center px-2 py-5 text-white">
+      <img class="banner-avatar" src="{% static 'img/avataaars.svg' %}" alt="avataaars" />
+      <div class="display-1 text-uppercase fw-bold">Start Django</div>
+      <h4>UI Developer - Python Developer - Django Developer</h4>
+      {% comment %}
+        <a target="_blank" href="https://startbootstrap.com/previews/freelancer">reference page link</a>
+      {% endcomment %}
+    </div>
+  </div>
+{% endblock %}
