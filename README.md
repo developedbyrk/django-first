@@ -1,7 +1,4 @@
 ## Django First
-A beginner-friendly Django project designed to help developers get started with web development using the Django framework.
-
-## Features
 Basic Django project setup with essential configurations.
 Includes a sample app to demonstrate Django's core functionalities.
 Static and template directories for serving CSS, JavaScript, and HTML files.
